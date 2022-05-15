@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Image to Sketch</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<style>
+
+.custom-container {
+	max-width: 800px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="mt-5">
+	<div class="container custom-container">
+		<form method="post" enctype="multipart/form-data" class="card">
+			<h1 class="card-header text-center">Form</h1>
+			<div class="card-body">
+				<div class="form-group row">
+					<label for="form-input-image" class="col-sm-2 col-form-label pt-0">Image</label>
+					<div class="col-sm-10">
+						<input type="file" accept="image/*" name="image" id="form-input-image" class="form-control-file">
+					</div>
+				</div>
+			</div>
+			<div class="card-footer text-center">
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
